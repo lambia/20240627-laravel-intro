@@ -15,14 +15,16 @@
     
     <p>Ringraziamenti speciali:</p>
     <ul>
-        <li>Alexander Fleming</li>
-        <li>Carl Sagan</li>
-        <li>Neil de Grasse Tyson</li>
-        <li>Patrick Stewart</li>
-        <li>John Carmack</li>
-        <li>Julian Assange</li>
-        <li>Sami Antero Järvi</li>
-        <li>Brewster Kahle</li>
+        <li><a href="https://it.wikipedia.org/wiki/Carl_Sagan">Un esobiologo a caso</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Patrick_Stewart">Il Capitano Picard</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/John_Carmack">L'uomo che sussurrava ai mostri</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Internet_Archive">Quel tizio che si è copiato INTERNET su un harddisk</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Gang_of_Four_(scrittori)">Un fantastico gruppo rap</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Sam_Lake">Uomo dal nome impronunciabile che tutti conoscono</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Steve_Wozniak">Steve non-Jobs</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Linus_Torvalds">Linus che si è programmato la sua coperta</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Richard_Stallman">Un metallaro a caso</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/Guerra_degli_editor">La guerra santa</a></li>
     </ul>
         
 </body>

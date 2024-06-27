@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 //Per la rotta / carica il file "welcome"
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 //Per la rotta /credits carica il file "about"

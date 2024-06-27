@@ -11,6 +11,7 @@
 <body>
 
     <h1>Hello Laravel World!</h1>
+    <h2>Benvenuto nella home page</h2>
 
 </body>
 
