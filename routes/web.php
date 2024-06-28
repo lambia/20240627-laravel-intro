@@ -15,15 +15,45 @@ use Illuminate\Support\Facades\Route;
 
 //Per la rotta / carica il file "welcome"
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        "msg" => "Benvenuto in classe #125",
+        "description" => "lorem ipsum e tante altre parole significative",
+        "studenti" => [
+            "Michele",
+            "Dihep",
+            "Giacomo",
+            "Giuseppe"
+        ]
+    ];
+
+    return view('home', $data);
+});
+
+//Rotta di test, richiama sempre la vista "home" ma usando il compact
+Route::get('/test', function () {
+
+    $msg = "Benvenuto in classe #125";
+    $description = "messaggio di test, tutto funziona con compact";
+
+    // $data = [
+    //     "msg" => $msg,
+    //     "description" => $description
+    // ];
+
+    $data = compact("msg", "description");
+
+    return view('home', $data);
 });
 
 //Per la rotta /credits carica il file "about"
 Route::get('/credits', function () {
-    return view('about');
+
+    $data = config("store");
+    return view('about', $data);
 });
 
-//Per la rotta /test carica sempre il file "about"
-Route::get('/test', function () {
-    return view('about');
+//Per la rotta /about carica sempre il file "about"
+Route::get('/about', function () {
+
+    return view('about', config("store") );
 });
