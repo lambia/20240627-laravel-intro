@@ -6,9 +6,32 @@ body {
     background: #222;
     color: white;
     font-family: sans-serif;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 a {
     color: aquamarine;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 1rem;
+}
+
+header #logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav > a {
+    margin: 0 0.3rem;
+}
+
+.content-wrapper {
+    padding: 1rem;
 }
